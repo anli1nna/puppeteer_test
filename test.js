@@ -1,5 +1,4 @@
 import puppeteer from "puppeteer";
-import {clickWithRetry, loadMoreCards, wait} from "./functions";
 
 (async () => {
     const browser = await puppeteer.launch({
